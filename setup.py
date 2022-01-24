@@ -12,13 +12,13 @@ from distutils.core import setup
 setup(
     name="autodb",
     packages=["autodb"],
-    version="0.1",
+    version="0.2",
     license="MIT",
     description="Auto database",
     author="Philippe Mathew",
     author_email="philmattdev@gmail.com",
-    url="",
-    download_url="",
+    url="https://github.com/bossauh/autodb",
+    download_url="https://github.com/bossauh/autodb/archive/refs/tags/v_02.tar.gz",
     keywords=["helper", "database"],
     install_requires=install_requires,
     classifiers=[
