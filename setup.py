@@ -18,7 +18,7 @@ setup(
     author="Philippe Mathew",
     author_email="philmattdev@gmail.com",
     url="https://github.com/bossauh/autodb",
-    download_url="https://github.com/bossauh/autodb/archive/refs/tags/v_03.tar.gz",
+    download_url="",
     keywords=["helper", "database"],
     install_requires=install_requires,
     classifiers=[
