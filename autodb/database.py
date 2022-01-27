@@ -65,7 +65,7 @@ class AutoDBClient:
                 self.db = self.internal_client[name]
 
                 if self.logging:
-                    self.logging.success(f"Successfully connected to montydb using the path {self.db_path}")
+                    self.logging.success(f"Successfully connected to montydb using the path {self.db_path}", group="autodb")
 
             except Exception as e:
                 raise ConnectionError(f"Failed to connect to montydb. ({e})")
